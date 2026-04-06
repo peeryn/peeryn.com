@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peeryn - The Trust Layer for the AI Agent Economy</title>
+  <meta name="description" content="Human-verified identity and peer-based consensus for a world where you can't tell humans from bots. EVM-compatible blockchain with Proof of Peers.">
+  <meta property="og:title" content="Peeryn - The Trust Layer for the AI Agent Economy">
+  <meta property="og:description" content="Human-verified identity and peer-based consensus. EVM-compatible blockchain with Proof of Peers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://peeryn.com">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>P</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <div class="logo-mark">P</div>
+        <span>Peeryn</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#agents">AI Agents</a>
+        <a href="#developers">Developers</a>
+        <a href="https://github.com/peeryn/peeryn" target="_blank" class="nav-github">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+      <button class="nav-mobile-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="container">
+      <div class="hero-badge">Chain ID 7991 &middot; EVM Compatible &middot; Proof of Peers</div>
+      <h1>The trust layer for the<br><span class="hero-gradient">AI agent economy</span></h1>
+      <p class="hero-sub">Human-verified identity and peer-based consensus for a world where you can't tell humans from bots.</p>
+      <div class="hero-actions">
+        <a href="https://github.com/peeryn/peeryn" target="_blank" class="btn btn-primary">View on GitHub</a>
+        <a href="#developers" class="btn btn-secondary">Get Started</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-value">349+</div>
+          <div class="stat-label">Tests Passing</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">PYN</div>
+          <div class="stat-label">Native Currency</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">MIT</div>
+          <div class="stat-label">Open Source</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="section section-dark" id="problem">
+    <div class="container">
+      <div class="section-header">
+        <h2>AI broke trust</h2>
+        <p>Deepfakes, bots, and AI-generated identities mean you can't verify who — or what — you're transacting with. Every platform is drowning in fake accounts. CAPTCHAs are dead. KYC is expensive. Trust is the scarcest resource.</p>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4.5c-.77-.833-2.694-.833-3.464 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
+          </div>
+          <h3>Fake identities at scale</h3>
+          <p>AI generates millions of convincing fake personas. Traditional identity verification can't keep up.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8m-4-4v8"/></svg>
+          </div>
+          <h3>No agent accountability</h3>
+          <p>AI agents transact on behalf of humans, but there's no standard for "who is this agent and can I trust it?"</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+          </div>
+          <h3>Missing trust rails</h3>
+          <p>AI agents need to negotiate, pay, and collaborate — but there's no trust infrastructure connecting them to real humans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>Proof of Peers</h2>
+        <p>Instead of proof of work or proof of stake, Peeryn uses real human relationships to validate transactions. Inspired by six degrees of separation.</p>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="how-number">01</div>
+          <h3>Verify in person</h3>
+          <p>Users verify each other's identity face-to-face, creating a trust edge in the peer graph. Your identity is a deterministic hash of your real-world info — one person, one identity, sybil-resistant by design.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-number">02</div>
+          <h3>Build your trust graph</h3>
+          <p>Each verification strengthens your position in the network. More verified friends = higher trust score. Trust is earned through real relationships, not capital.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-number">03</div>
+          <h3>Transact at trust speed</h3>
+          <p>Transactions between close peers validate fast with fewer validators. Transactions between distant peers require more validation. Higher value = more validators needed. The network adapts to risk.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-number">04</div>
+          <h3>Register AI agents</h3>
+          <p>Verified humans register AI agents that inherit their trust score. Agents can transact, negotiate, and pay each other — with human accountability baked in.</p>
+        </div>
+      </div>
+
+      <!-- Trust Visualization -->
+      <div class="trust-visual">
+        <div class="trust-visual-inner">
+          <pre class="trust-diagram">
+    Trusted Peers          Transaction Speed         Validators Required
+    ─────────────          ──────────────────        ───────────────────
+    Close friends    →     Instant (~1s)        →    3 neighbors
+    Friends of friends →   Fast (~5s)           →    4-5 validators
+    3 hops away      →     Standard (~15s)      →    6-7 validators
+    4+ hops away     →     Thorough (~30s)      →    8+ validators
+
+    Higher value transactions always require more validators,
+    regardless of trust distance.
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Agents -->
+  <section class="section section-dark" id="agents">
+    <div class="container">
+      <div class="section-header">
+        <h2>Built for AI agents</h2>
+        <p>The missing middleware between AI agents and real economic activity. Agents inherit trust from their human owners and transact within rate limits.</p>
+      </div>
+      <div class="agent-flow">
+        <div class="flow-card flow-human">
+          <div class="flow-label">Verified Human</div>
+          <div class="flow-desc">Identity verified by peers in person. Trust score from social graph.</div>
+        </div>
+        <div class="flow-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+          <span>registers</span>
+        </div>
+        <div class="flow-card flow-agent">
+          <div class="flow-label">AI Agent</div>
+          <div class="flow-desc">Inherits 80% of owner's trust. Rate-limited. Capabilities declared.</div>
+        </div>
+        <div class="flow-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+          <span>transacts with</span>
+        </div>
+        <div class="flow-card flow-agent">
+          <div class="flow-label">Other Agent</div>
+          <div class="flow-desc">Verifies counterparty trust before transacting. Payments in PYN.</div>
+        </div>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Trust Inheritance</h3>
+          <p>Agents inherit trust from their verified human owner's position in the peer graph. No owner verification = no agent.</p>
+        </div>
+        <div class="feature">
+          <h3>Rate Limits</h3>
+          <p>Owner-configured limits: max per transaction, hourly spend, transaction count, and counterparty limits. Safety by default.</p>
+        </div>
+        <div class="feature">
+          <h3>Capability Declaration</h3>
+          <p>Agents declare what they can do: payments, negotiation, data queries, oracle services, contract execution.</p>
+        </div>
+        <div class="feature">
+          <h3>Lifecycle Control</h3>
+          <p>Owners can pause, resume, or permanently deactivate agents. Full control stays with the human.</p>
+        </div>
+        <div class="feature">
+          <h3>On-chain Registry</h3>
+          <p>Solidity smart contract for agent registration, payment enforcement, and trust queries. Fully auditable.</p>
+        </div>
+        <div class="feature">
+          <h3>Activity Logging</h3>
+          <p>Every payment, registration, and status change is logged. Full transparency for owners and counterparties.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Developers -->
+  <section class="section" id="developers">
+    <div class="container">
+      <div class="section-header">
+        <h2>Build with Peeryn</h2>
+        <p>TypeScript SDK, JSON-RPC API, and CLI. Register an agent in 5 lines of code.</p>
+      </div>
+
+      <div class="code-tabs">
+        <div class="code-tab-bar">
+          <button class="code-tab active" data-tab="sdk">SDK</button>
+          <button class="code-tab" data-tab="verify">Verify</button>
+          <button class="code-tab" data-tab="cli">CLI</button>
+          <button class="code-tab" data-tab="rpc">RPC</button>
+        </div>
+
+        <div class="code-panel active" id="tab-sdk">
+          <div class="code-block">
+            <div class="code-header">
+              <span>Register an AI agent</span>
+              <span class="code-lang">TypeScript</span>
+            </div>
+            <pre><code><span class="kw">import</span> { PeerynClient } <span class="kw">from</span> <span class="str">'@peeryn/sdk'</span>;
+
+<span class="kw">const</span> client = <span class="kw">new</span> <span class="fn">PeerynClient</span>(<span class="str">'http://localhost:8545'</span>);
+
+<span class="cm">// Register an AI agent under your verified identity</span>
+<span class="kw">const</span> agent = <span class="kw">await</span> client.<span class="fn">registerAgent</span>(myAddress, {
+  name: <span class="str">'shopping-assistant'</span>,
+  description: <span class="str">'Finds best deals and makes purchases'</span>,
+  capabilities: [<span class="str">'payments'</span>, <span class="str">'negotiation'</span>],
+});
+
+<span class="cm">// Agent can now transact with other agents</span>
+<span class="kw">await</span> agent.<span class="fn">pay</span>(otherAgentId, <span class="str">'2.5'</span>); <span class="cm">// 2.5 PYN</span></code></pre>
+          </div>
+        </div>
+
+        <div class="code-panel" id="tab-verify">
+          <div class="code-block">
+            <div class="code-header">
+              <span>Verify before transacting</span>
+              <span class="code-lang">TypeScript</span>
+            </div>
+            <pre><code><span class="cm">// Always verify counterparty trust before transacting</span>
+<span class="kw">const</span> trust = <span class="kw">await</span> agent.<span class="fn">verifyCounterparty</span>(sellerAgentId);
+
+<span class="kw">if</span> (trust.valid && trust.trustScore > <span class="num">30</span>) {
+  console.<span class="fn">log</span>(<span class="str">`Trusted agent (score: </span>${trust.trustScore}<span class="str">)`</span>);
+  console.<span class="fn">log</span>(<span class="str">`Owner verified: </span>${trust.ownerVerified}<span class="str">`</span>);
+
+  <span class="cm">// Safe to transact</span>
+  <span class="kw">const</span> result = <span class="kw">await</span> agent.<span class="fn">pay</span>(sellerAgentId, <span class="str">'10.0'</span>, <span class="str">'Market data'</span>);
+  console.<span class="fn">log</span>(<span class="str">`TX: </span>${result.txHash}<span class="str">`</span>);
+} <span class="kw">else</span> {
+  console.<span class="fn">log</span>(<span class="str">'Trust too low, declining transaction'</span>);
+}</code></pre>
+          </div>
+        </div>
+
+        <div class="code-panel" id="tab-cli">
+          <div class="code-block">
+            <div class="code-header">
+              <span>Run a Peeryn node</span>
+              <span class="code-lang">Shell</span>
+            </div>
+            <pre><code><span class="cm"># Install and start a node</span>
+git clone https://github.com/peeryn/peeryn.git
+<span class="kw">cd</span> peeryn && bun install
+
+<span class="cm"># Start the node</span>
+bun run start
+
+<span class="cm"># Or use the CLI</span>
+bun run cli node start --rpc-port 8545 --p2p
+bun run cli account create
+bun run cli peer list</code></pre>
+          </div>
+        </div>
+
+        <div class="code-panel" id="tab-rpc">
+          <div class="code-block">
+            <div class="code-header">
+              <span>JSON-RPC API</span>
+              <span class="code-lang">Shell</span>
+            </div>
+            <pre><code><span class="cm"># Standard Ethereum RPC</span>
+curl -X POST http://localhost:8545 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+
+<span class="cm"># Peeryn agent methods</span>
+curl -X POST http://localhost:8545 \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"agent_verify","params":["0x..."],"id":1}'
+
+<span class="cm"># 50+ RPC methods: eth_*, net_*, web3_*, peeryn_*, agent_*</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Architecture -->
+  <section class="section section-dark" id="architecture">
+    <div class="container">
+      <div class="section-header">
+        <h2>Architecture</h2>
+        <p>Full EVM compatibility with a DAG-based transaction layer and trust-weighted consensus.</p>
+      </div>
+      <div class="arch-grid">
+        <div class="arch-card">
+          <h3>Core</h3>
+          <ul>
+            <li>EVM via ethereumjs</li>
+            <li>DAG transaction architecture</li>
+            <li>LevelDB persistent storage</li>
+            <li>Block executor & state manager</li>
+          </ul>
+        </div>
+        <div class="arch-card">
+          <h3>Network</h3>
+          <ul>
+            <li>libp2p peer-to-peer</li>
+            <li>Wire protocol & sync</li>
+            <li>Peer discovery (mDNS, DHT)</li>
+            <li>Transaction propagation</li>
+          </ul>
+        </div>
+        <div class="arch-card">
+          <h3>Identity</h3>
+          <ul>
+            <li>Biometric hash (keccak256)</li>
+            <li>In-person verification</li>
+            <li>Sybil-resistant registry</li>
+            <li>Duplicate detection</li>
+          </ul>
+        </div>
+        <div class="arch-card">
+          <h3>Agents</h3>
+          <ul>
+            <li>On-chain registry (Solidity)</li>
+            <li>Trust inheritance</li>
+            <li>Rate limit enforcement</li>
+            <li>TypeScript SDK</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tech-stack">
+        <span class="tech">TypeScript</span>
+        <span class="tech">Bun</span>
+        <span class="tech">ethereumjs</span>
+        <span class="tech">libp2p</span>
+        <span class="tech">LevelDB</span>
+        <span class="tech">Solidity</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-cta">
+    <div class="container">
+      <h2>Ready to build?</h2>
+      <p>Peeryn is open source and ready for contributors. Start a node, register an agent, or help shape the protocol.</p>
+      <div class="cta-actions">
+        <a href="https://github.com/peeryn/peeryn" target="_blank" class="btn btn-primary btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          Star on GitHub
+        </a>
+        <a href="https://github.com/peeryn/peeryn/blob/main/README.md" target="_blank" class="btn btn-secondary btn-lg">Read the Docs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo-mark">P</div>
+          <span>Peeryn</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/peeryn" target="_blank">GitHub</a>
+          <a href="https://github.com/peeryn/peeryn/blob/main/docs/API.md" target="_blank">API Docs</a>
+          <a href="https://github.com/peeryn/peeryn/blob/main/PLAN.md" target="_blank">Whitepaper</a>
+        </div>
+        <div class="footer-meta">
+          <p>Chain ID 7991 &middot; MIT License &middot; Built with Bun + TypeScript</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Code tabs
+    document.querySelectorAll('.code-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.code-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.code-panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-mobile-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        toggle.classList.toggle('open');
+      });
+    }
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (navLinks.classList.contains('open')) {
+            navLinks.classList.remove('open');
+            toggle.classList.remove('open');
+          }
+        }
+      });
+    });
+
+    // Nav background on scroll
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+</body>
+</html>
